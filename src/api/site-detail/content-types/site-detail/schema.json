@@ -1,0 +1,40 @@
+{
+  "kind": "singleType",
+  "collectionName": "site_details",
+  "info": {
+    "singularName": "site-detail",
+    "pluralName": "site-details",
+    "displayName": "Site Detail",
+    "description": "Site metadata and branding"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "siteName": {
+      "type": "string",
+      "required": true
+    },
+    "siteUrl": {
+      "type": "string"
+    },
+    "metadata": {
+      "type": "json"
+    },
+    "language": {
+      "type": "string"
+    },
+    "locale": {
+      "type": "string"
+    },
+    "siteLogo": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": ["images"]
+    },
+    "googleAnalyticsId": {
+      "type": "string"
+    }
+  }
+}
